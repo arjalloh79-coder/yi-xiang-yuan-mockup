@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yi Xiang Yuan | Restaurant Chinois à Conakry</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', system-ui, sans-serif; }
+.lang-en { display: none; }
+.sticky-cta { position: fixed; bottom: 0; left: 0; right: 0; z-index: 50; }
+</style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+<!-- Review Banner -->
+<div class="bg-amber-50 border-b border-amber-200 text-amber-900 text-center text-sm py-2 px-4">
+Complimentary mockup by Al-Falah Marketing — nothing is live under your name.
+</div>
+
+<!-- Header -->
+<header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-200">
+<div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+<div class="font-bold text-xl text-slate-900">Yi Xiang Yuan</div>
+<nav class="hidden md:flex gap-6 text-sm font-medium">
+<a href="#menu" class="hover:text-teal-600">Menu</a>
+<a href="#gallery" class="hover:text-teal-600">Galerie</a>
+<a href="#contact" class="hover:text-teal-600">Contact</a>
+</nav>
+<div class="flex items-center gap-3">
+<button onclick="toggleLang()" class="text-sm font-medium px-3 py-1 border rounded-full">EN</button>
+<a href="https://wa.me/224655557777" class="bg-teal-600 text-white px-4 py-2 rounded-xl text-sm font-semibold">WhatsApp</a>
+</div>
+</div>
+</header>
+
+<!-- Hero -->
+<section class="relative h-[70vh] min-h-[500px] bg-cover bg-center" style="background-image: linear-gradient(rgba(15,23,42,0.55), rgba(15,23,42,0.55)), url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1600&q=80');">
+<div class="absolute inset-0 flex items-center">
+<div class="max-w-6xl mx-auto px-4 text-white">
+<h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Restaurant Chinois authentique<br>au cœur de Conakry</h1>
+<p class="mt-4 text-lg md:text-xl max-w-xl">Nouilles, riz sauté, plats de la mer et saveurs de Chine à Almamya, Kaloum.</p>
+<div class="mt-8 flex flex-wrap gap-4">
+<a href="https://wa.me/224655557777?text=Bonjour%20Yi%20Xiang%20Yuan%2C%20je%20souhaite%20r%C3%A9server%20une%20table" class="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-2xl font-semibold">Réserver sur WhatsApp</a>
+<a href="tel:+224655557777" class="border border-white text-white px-6 py-3 rounded-2xl font-semibold">Appeler</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Regional Contact Bar -->
+<div class="bg-slate-900 text-white text-sm py-3">
+<div class="max-w-6xl mx-auto px-4 flex flex-wrap justify-center gap-6 text-center">
+<span>Laurel, MD · Coyah, Guinee · Freetown, Sierra Leone</span>
+<span>Al-Falah Marketing support</span>
+</div>
+</div>
+
+<!-- Menu Grid -->
+<section id="menu" class="py-16 max-w-6xl mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-10">Nos Spécialités</h2>
+<div class="grid md:grid-cols-3 gap-6">
+<div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+<img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80" alt="Nouilles" class="h-48 w-full object-cover">
+<div class="p-5">
+<h3 class="font-bold text-lg">Nouilles sautées</h3>
+<p class="text-sm text-slate-600 mt-1">Légumes frais, poulet ou crevettes, sauce maison.</p>
+</div>
+</div>
+<div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+<img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80" alt="Riz" class="h-48 w-full object-cover">
+<div class="p-5">
+<h3 class="font-bold text-lg">Riz cantonais</h3>
+<p class="text-sm text-slate-600 mt-1">Le classique à Conakry, généreux et savoureux.</p>
+</div>
+</div>
+<div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+<img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80" alt="Plats" class="h-48 w-full object-cover">
+<div class="p-5">
+<h3 class="font-bold text-lg">Plats de la mer</h3>
+<p class="text-sm text-slate-600 mt-1">Poisson et fruits de mer à la chinoise.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="py-12 bg-white">
+<div class="max-w-6xl mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-8">Ambiance</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+<img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+<img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+<img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80" class="rounded-xl h-40 object-cover w-full" alt="">
+</div>
+</div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-16 max-w-6xl mx-auto px-4 text-center">
+<h2 class="text-3xl font-bold mb-4">Nous trouver</h2>
+<p class="text-lg">En face de la Gare — Almamya, Kaloum, Conakry</p>
+<p class="mt-2 text-xl font-semibold">+224 655 55 77 77</p>
+<a href="https://wa.me/224655557777" class="inline-block mt-6 bg-teal-600 text-white px-8 py-3 rounded-2xl font-semibold">Écrire sur WhatsApp</a>
+</section>
+
+<!-- Footer -->
+<footer class="bg-slate-900 text-slate-300 py-10 text-sm">
+<div class="max-w-6xl mx-auto px-4 text-center">
+<p class="font-semibold text-white">Yi Xiang Yuan</p>
+<p class="mt-2">Restaurant chinois · Conakry, Guinée</p>
+<p class="mt-6 text-xs">Mockup créé par Al-Falah Marketing · Laurel, MD · info@al-falahmarketing.com · +1 240 280 6137</p>
+<p class="mt-1 text-xs">Rien n'est publié en votre nom. Contactez-nous pour affiner avec vos photos et prix.</p>
+</div>
+</footer>
+
+<!-- Mobile CTA -->
+<div class="sticky-cta bg-white border-t border-slate-200 p-3 flex gap-3 md:hidden">
+<a href="tel:+224655557777" class="flex-1 text-center py-3 border rounded-xl font-semibold">Appeler</a>
+<a href="https://wa.me/224655557777" class="flex-1 text-center py-3 bg-teal-600 text-white rounded-xl font-semibold">WhatsApp</a>
+</div>
+
+<script>
+function toggleLang() {
+  document.querySelectorAll('.lang-fr').forEach(el => el.style.display = document.querySelector('.lang-en').style.display === 'none' ? 'none' : 'block');
+  document.querySelectorAll('.lang-en').forEach(el => el.style.display = document.querySelector('.lang-en').style.display === 'none' ? 'block' : 'none');
+}
+</script>
+</body>
+</html>
